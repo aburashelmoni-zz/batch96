@@ -1,0 +1,280 @@
+body {
+  background: #fff;
+  overflow-x: hidden;
+}
+#nav-area{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+#nav-area h3{
+    color: #1D4B5A;
+}
+#nav-area h5{
+    color: #1D4B5A;
+    font-size: 14px;
+}
+#nav-area h3 > span{
+    color: #FDE428;
+}
+.navbar{
+    background: #fff;
+    opacity: 0.9;
+}
+.navbar .nav-item{
+    font-size: 16px;
+    padding-right: 20px;
+    font-weight: bold;  
+}
+.navbar .nav-item:last-child{
+    padding-right: 0;
+}
+.navbar .nav-link{
+    color: #1D4B5A !important;
+}
+.navbar .active{
+    color:#FDE428 !important;
+}
+.navbar .nav-link:hover{
+    color:#FDE428 !important;
+}
+.navbar .navbar-toggler{
+    background:#FDE428;
+}
+.navbar a{
+    text-decoration: none;
+}
+#slider-area{
+    padding-top: 80px;
+   
+   
+}
+
+#main-slide img{
+    width: 100%;
+    height: 550px;
+}
+#main-slide li{
+    background:#1D4B5A;
+}
+#main-slide .active{
+    background: #FDE428 !important;
+}
+#main-slide .main-slide-prev{
+    color:#FDE428 ;
+    position: absolute;
+    left: 0;
+    font-size: 40px;
+}
+#main-slide .main-slide-next{
+    color:#FDE428 ;
+    position: absolute;
+    right: 0;
+    font-size: 40px;
+}
+
+#about-area{
+    background: #F2F3F4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#about-area h1{
+    color: #1D4B5A;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+#about-area p{
+    text-align: justify;
+    color: #1D4B5A;
+}
+
+/* ////////*
+h2{
+  text-align:center;
+  padding: 20px;
+}
+/* Slider */
+#member-area{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#member-area h1{
+    color: #1D4B5A;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.slick-slide {
+    margin: 0px 5px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+    height: 250px;
+    
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+.slide a{
+    text-decoration: none;
+}
+.slide h5{
+    color: #FDE428;
+    font-size: 16px;
+    text-align: left;
+    padding-top: 2px;
+    
+}
+.slide h6{
+    color:#1D4B5A;
+    font-size: 14px;
+    margin-top: -8px;
+     text-align: left;
+}
+#post-area{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+#post-area h1{
+    text-transform: uppercase;
+    color: #1D4B5A;
+    padding-bottom: 30px;
+    font-size: 28px;
+}
+#post-area img{
+    width: 250px;
+    height: 250px;
+    padding-right: 30px;
+}
+#post-area p{
+    text-align: justify;
+}
+#post-area h5{
+    text-align: left;
+    color: #1D4B5A;
+}
+#post-area h6{
+    text-align: left;
+    color: #FDE428;
+}
+#post-area p>a{
+    color: blue;
+    text-decoration: underline;
+   
+}
+#footer-area{
+
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background: #002B39;
+    text-align: center;
+}
+
+#footer-area span{
+    color: #FDE428;
+}
